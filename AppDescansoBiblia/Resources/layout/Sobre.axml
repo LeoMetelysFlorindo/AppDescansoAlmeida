@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/linearLayoutSobre"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:id="@+id/ImageView"
+            android:src="@drawable/Ichts"
+            android:scaleType="center" />
+        <TextView
+            android:text="Desenvolvedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:id="@+id/textView1"
+            android:layout_marginTop="140px"
+            android:fontFamily="Futura Bk BT" />
+        <TextView
+            android:text="Leonardo Metelys - leo.metelys@gmail.com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:id="@+id/textView2"
+            android:layout_marginTop="10px"
+            android:fontFamily="Futura Bk BT" />
+        <TextView
+            android:text="Manaus - Amazonas - Brasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:id="@+id/textView3"
+            android:layout_marginTop="10px"
+            android:fontFamily="Futura Bk BT" />
+        <TextView
+            android:text="Que o SENHOR possa sempre abençoar sua vida. Versão NVI como principal."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:id="@+id/textView4"
+            android:layout_marginTop="40px"
+            android:fontFamily="Futura Bk BT" />
+        <TextView
+            android:text="Almeida Revista e Atualizada no Brasil. 2ª Edição - 1993."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:id="@+id/textView7"
+            android:layout_marginTop="40px"
+            android:fontFamily="Futura Bk BT" />
+        <TextView
+            android:text="Esta obra não visa fins lucrativos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:id="@+id/textView5"
+            android:layout_marginTop="10px"
+            android:fontFamily="Futura Bk BT" />
+        <Button
+            android:text="Voltar"
+            android:onClick="btnFecharClicked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFechar" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,3 @@
+<resources><style name="Descansoo.Theme" parent="android:Theme"><item name="android:windowBackground">
+      @drawable/telainicial
+    </item><item name="android:windowNoTitle">true</item></style></resources>

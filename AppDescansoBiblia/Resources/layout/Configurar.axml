@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutConf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:id="@+id/ImageView"
+        android:src="@drawable/Ichts"
+        android:scaleType="center" />
+    <TextView
+        android:text="Configurar Descanso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:id="@+id/textView88"
+        android:layout_marginTop="10px"
+        android:fontFamily="Futura Bk BT" />
+    <RadioButton
+        android:text="Geral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdGeral"
+        android:textSize="20dp"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="20px" />
+    <RadioButton
+        android:text="Salmos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdSalmos"
+        android:textSize="20dp"
+        android:layout_marginLeft="440px"
+        android:layout_marginTop="-50px" />
+    <RadioButton
+        android:text="Provérbios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdProverbios"
+        android:textSize="20dp"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="20px" />
+    <RadioButton
+        android:text="Novo Testamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdNovoTestamento"
+        android:textSize="15dp"
+        android:layout_marginLeft="440px"
+        android:layout_marginTop="-60px" />
+    <RadioButton
+        android:text="Antigo Testamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdAntigo"
+        android:textSize="20dp"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="20px" />
+    <Button
+        android:text="Salvar"
+        android:onClick="btnSalvarClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFechar"
+        android:layout_marginTop="50px" />
+</LinearLayout>

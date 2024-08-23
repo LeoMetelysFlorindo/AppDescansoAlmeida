@@ -1,0 +1,11 @@
+ModernHttpClient
+OkHttp
+Plugin.Screenshot.Abstractions
+Plugin.Screenshot
+System.Net.Http.Extensions
+System.Net.Http.Primitives
+System.Reactive.Core
+System.Reactive.Interfaces
+System.Reactive.Linq
+System.Reactive.PlatformServices
+System.Runtime

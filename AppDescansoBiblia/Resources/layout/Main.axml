@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000"
+    android:foreground="#0000"
+    android:id="@+id/linearLayoutMain"
+    android:foregroundGravity="center">
+    <TextView
+        android:text="Esperei com paciência no SENHOR"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/TxtVersiculo"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:layout_marginTop="120px"
+        android:fontFamily="Tahoma"
+        android:gravity="center" />
+    <TextView
+        android:text="Salmo 40:1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:layout_marginTop="40px"
+        android:gravity="center"
+        android:fontFamily="Tahoma"
+        android:id="@+id/txtCapitulo" />
+    <Button
+        android:background="@drawable/Compartilhar"
+        android:layout_width="60sp"
+        android:layout_height="40sp"
+        android:id="@+id/BtnPrint"
+        android:layout_marginTop="100px"
+        android:layout_marginLeft="310px" />
+</LinearLayout>

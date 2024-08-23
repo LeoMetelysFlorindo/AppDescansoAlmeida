@@ -1,0 +1,30 @@
+02/05/2017 19:16h
+
+Melhorias para esta aplicação:
+
+1. Fazer um screenshot que permita compartilhar qualquer versiculo na tela simplesmente clicando no botão compartilhar; O aplicativo
+pode ter uma função de screenshot do versiculo na tela no momento e permitir o compartilhamento no Facebook, no Twitter, no
+Google+ e no WhastsApp da imagem gerada; Um  bom modo de incentivar outros a compartilhar a palavra de Deus.
+
+Por Leonardo Metelys
+
+
+Any raw assets you want to be deployed with your application can be placed in
+this directory (and child directories) and given a Build Action of "AndroidAsset".
+
+These files will be deployed with you package and will be accessible using Android's
+AssetManager, like this:
+
+public class ReadAsset : Activity
+{
+	protected override void OnCreate (Bundle bundle)
+	{
+		base.OnCreate (bundle);
+
+		InputStream input = Assets.Open ("my_asset.txt");
+	}
+}
+
+Additionally, some Android functions will automatically load asset files:
+
+Typeface tf = Typeface.CreateFromAsset (Context.Assets, "fonts/samplefont.ttf");
